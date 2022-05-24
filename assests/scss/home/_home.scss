@@ -1,0 +1,76 @@
+.header{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 5%;
+
+
+.molla_logo{
+    width: 25%;
+    
+    img{
+        width: 110px;
+        height: 30px;
+    }
+}
+
+.nav_icons{
+    width: 25%;
+
+ul{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-right: 15%;
+    padding: 7% 7% 0 0;
+}
+}
+
+.search{
+    position: relative;
+
+input{
+    width: 600px;
+    height: 40px;
+    
+}
+
+i{
+    position: absolute;
+    right: 2%;
+    top: 25%;
+}
+}
+
+}
+
+header{
+    width: 100%;
+    .browse_left{
+
+    
+    .browse{
+        display: flex;
+        position: absolute;
+        opacity: 1;
+        &:hover{
+            color: green;
+        }
+    }
+
+    li{
+        list-style: none;
+    }
+
+    .openbrowse{
+        opacity: 0;
+    }
+
+
+}
+}
